@@ -116,7 +116,7 @@ header{
 
 .subtext{
 font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 25px;
   color:white;
 }
 
@@ -134,9 +134,9 @@ object-fit: cover;
 
 .textoverlay{
   position: absolute;
-  top:20%;
+  top:35%;
   right: 10%;
-    font-size: 150px;
+    font-size: 125px;
     color: rgba(255, 255, 255, 0.916);
     font-family: 'Poppins', sans-serif;
     
@@ -159,9 +159,9 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 50px;
   background: rgb(252, 252, 252);
-margin-top: -10px;
+margin-top: -25px;
  color: rgba(74, 122, 130, 0.836);
- padding-top: 10%;
+ padding-top: 15%;
  padding-left: 5%;
  padding-right: 5%;
 font-family: 'Poppins', sans-serif;
@@ -173,10 +173,29 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 .icon{
   color: rgba(74, 122, 130, 0.836);
-  font-size: 20px;
+  font-size: 25px;
 
 }
 button{ border: none;
 color: rgba(74, 122, 130, 0.836);
 border-radius: 10px;
+
+}
+h3{position: absolute;
+ left:5%;
+ padding-top: 20px;
+  font-size: 40px;
+  color: rgba(74, 122, 130, 0.836);
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+  color: white;
+  background-color: rgba(74, 122, 130, 0.836);
+
+}
+
+footer{
+  padding:5%;
+  background-color: rgba(199, 231, 237, 0.651);
 }
