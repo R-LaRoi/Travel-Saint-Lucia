@@ -1,0 +1,182 @@
+body { margin:10px;
+  background:rgb(24, 29, 49);
+
+}
+
+#bkg video{ height: 100vh;
+        width:100%;
+        z-index:10;
+        object-fit: cover;
+        
+    }
+    h1{
+color: white;
+font-size: 120px;
+
+    }
+
+   
+.overlay {
+ 
+  position: absolute;
+  top: 0;
+  font-size: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.explore{
+  font-size: 25px;
+ 
+}
+
+
+.container {
+  display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.grid {
+
+  display: grid;
+  grid-gap: 64px;
+  margin-top: 0;
+
+}
+
+.img-responsive {
+
+  width: 100%;
+  display: block;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  background: rgb(252, 252, 252);
+margin-top: auto;
+padding-top: 10%;
+padding-bottom: 10%;
+padding-right: 5%;
+padding-left: 3%;
+font-family: 'Poppins', sans-serif;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+ 
+
+}
+
+
+main{ 
+   margin: 0 auto;
+
+}
+
+
+
+
+ .parttwo {display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-column-gap: -1px;
+
+ }
+
+
+ blockquote{
+background-color: rgb(252, 252, 252);
+color: rgba(74, 122, 130, 0.836);
+font-size: 18px;
+padding-left: 2%;
+line-height: 30px;
+
+ }
+
+
+ .partthree {
+  margin-top: -5%;
+position: relative;
+
+}
+
+ 
+header{
+    margin-bottom: -8px;
+}
+
+.subtext{
+font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:white;
+}
+
+.text{
+  font-size: 18px;
+  color: rgba(74, 122, 130, 0.836); 
+background: rgb(252, 252, 252);
+font-family: 'Poppins', sans-serif;
+}
+
+#split1{
+object-fit: cover;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.textoverlay{
+  position: absolute;
+  top:20%;
+  right: 10%;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.916);
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+#pic{
+  border: none;
+  background: rgb(252, 252, 252,);
+ box-shadow: none;
+ padding-left: 10%;
+}
+
+footer{
+  color:white;
+ 
+}
+
+.resort{
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  background: rgb(252, 252, 252);
+margin-top: -10px;
+ color: rgba(74, 122, 130, 0.836);
+ padding-top: 10%;
+ padding-left: 5%;
+ padding-right: 5%;
+font-family: 'Poppins', sans-serif;
+}
+
+img {
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon{
+  color: rgba(74, 122, 130, 0.836);
+  font-size: 20px;
+
+}
+button{ border: none;
+color: rgba(74, 122, 130, 0.836);
+border-radius: 10px;
+}
