@@ -14,10 +14,9 @@ color: white;
 font-size: 120px;
 
     }
-
    
+
 .overlay {
- 
   position: absolute;
   top: 0;
   font-size: 100px;
@@ -39,7 +38,7 @@ flex-direction: column;
 
 .container {
   display: grid;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0;
 
@@ -72,19 +71,7 @@ font-family: 'Poppins', sans-serif;
 
 section {
   max-width: 100%;
-  margin: 0 auto;
- 
-
 }
-
-
-main{ 
-   margin: 0 auto;
-
-}
-
-
-
 
  .parttwo {display: grid;
  grid-template-columns: 1fr 1fr;
@@ -101,7 +88,6 @@ padding-left: 2%;
 line-height: 30px;
 
  }
-
 
  .partthree {
   margin-top: -5%;
@@ -195,7 +181,12 @@ button:hover{
 
 }
 
-footer{
-  padding:5%;
-  background-color: rgba(199, 231, 237, 0.651);
-}
+.partfour{
+  color: white;
+   background-color: rgb(74,
+    122,
+    130,
+    0.836);
+  font-size: 14px;
+    padding: 50px}
+  
