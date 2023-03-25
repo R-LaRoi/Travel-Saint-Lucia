@@ -1,6 +1,11 @@
 body { margin:10px;
-  background:rgb(24, 29, 49);
+  background:rgb(24, 34, 46);
 
+}
+
+@font-face {
+  font-family: Dense;
+  src: url('./Fonts/dense/Dense-Regular.otf');
 }
 
 #bkg video{ height: 100vh;
@@ -12,9 +17,11 @@ body { margin:10px;
     h1{
 color: white;
 font-size: 120px;
+font-family: Dense;
 
     }
    
+
 
 .overlay {
   position: absolute;
@@ -30,10 +37,69 @@ justify-content: center;
 flex-direction: column;
 }
 
+.title-btn{
+
+  background-color: white;
+  color:#233446;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.box-4{
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-text{
+
+color: rgb(94, 105, 128);
+padding: 10%;
+font-size: 14px;
+font-family: 'Poppins';
+margin: auto;
+
+}
+
+#grid-one-img{
+padding: 15%;
+width: 100%;
+ 
+
+
+}
+
+.plan-link{
+
+background-color: white;
+color: #d0564bd7 ;
+padding: 10px;
+font-size: 12px;
+border: 1px solid #d0564bd7;
+
+}
+main{
+  background-color: #fffcfc;
+}
+
+
+.headline{
+color: #d0564bd7;
+font-family: "Dense";
+font-size: 80px;
+letter-spacing: 3px;
+
+}
+
 .explore{
   font-size: 25px;
  
 }
+
+
+
 
 .discover{
 font-size: 28px;
@@ -61,31 +127,17 @@ color: rgb(74,
 }
 
 .img-responsive {
-
-  width: 100%;
+width: 100%;
   display: block;
+ 
 }
 
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-  background: rgb(252, 252, 252);
-margin-top: auto;
-padding-top: 10%;
-padding-bottom: 10%;
-padding-right: 5%;
-padding-left: 3%;
-font-family: 'Poppins', sans-serif;
-}
+
 
 section {
   max-width: 100%;
 }
 
- .parttwo {display: grid;
- grid-template-columns: 1fr 1fr;
- grid-column-gap: -1px;
-
- }
 
 
  blockquote{
@@ -97,11 +149,6 @@ line-height: 30px;
 
  }
 
- .partthree {
-  margin-top: -5%;
-position: relative;
-
-}
 
  
 header{
@@ -109,7 +156,7 @@ header{
 }
 
 .subtext{
-font-family: 'Poppins', sans-serif;
+font-family: 'Dense', sans-serif;
   font-size: 25px;
   color:white;
 }
@@ -132,7 +179,7 @@ object-fit: cover;
   right: 10%;
     font-size: 125px;
     color: rgba(255, 255, 255, 0.916);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Tusker', sans-serif;
     
    
 }
@@ -161,9 +208,21 @@ margin-top: -25px;
 font-family: 'Poppins', sans-serif;
 }
 
-img {
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+@media only screen and (max-width:550px) {
+  .container2 {
+    grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "resort"
+  ;
+  }
 }
+
+
+
+/* img {
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
 
 .icon{
   color: rgba(74, 122, 130, 0.836);
@@ -195,3 +254,4 @@ button:hover{
   font-size: 14px;
     padding: 50px}
   
+
