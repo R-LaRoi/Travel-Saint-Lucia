@@ -243,10 +243,10 @@ background-color: #233446;
  padding-left: 10%;
 }
 
-footer{
+/* footer{
   color:white;
  background-color: #1F324A;
-}
+} */
 
 
 
@@ -255,8 +255,8 @@ footer{
     grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
-  "resort"
-  ;
+
+  
   }
 }
 
