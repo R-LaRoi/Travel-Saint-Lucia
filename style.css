@@ -80,10 +80,10 @@ main {
 .grid-text{
 
 color: rgb(94, 105, 128);
-
 font-size: 14px;
 font-family: 'Poppins';
 margin: auto;
+padding-right: 25%;
 
 }
 .headline {
@@ -224,7 +224,7 @@ background-color: #233446;
 
 .grid-text-three {
   color: rgb(94, 105, 128);
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Poppins';
   margin-top: 15px;
  padding: 6%;
@@ -243,24 +243,65 @@ background-color: #233446;
  padding-left: 10%;
 }
 
-/* footer{
+ footer{
+  padding: 10%;
   color:white;
- background-color: #1F324A;
-} */
+ background-color: rgba(253, 150, 90, 0.714);
+} 
 
 
 
-@media only screen and (max-width:550px) {
-  .container2 {
-    grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-
+@media screen and (max-width:750px) {
+  .grid-4 {
   
-  }
+      display: grid;
+      grid-template-rows: 1fr ;
+      grid-template-columns: 1fr;
+
+    }
+
+        .grid-text {
+  margin-top: -40px;
+          color: rgb(94, 105, 128);
+          font-size: 14px;
+          font-family: 'Poppins';
+          text-align: center;
+          padding-left: 15%;
+          padding-bottom: 30px;
+        
+        }
+
+
+
+                .destinations {
+                  display: grid;
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 1fr;
+      margin-left:25px;
+      text-align: center;
+
+}
+
+.headline-two {
+  padding-top: 45px;
+  text-align: center;
+  color: #d0564bd7;
+  font-family: "Dense";
+  font-size: 80px;
+  letter-spacing: 3px;
+  font: bolder;
 }
 
 
+.h2-text {
+  text-align: center;
+  color: #647b94;
+  font-size: 24px;
+  font-family: "dense", times;
+}
+
+
+}
 
 /* img {
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
